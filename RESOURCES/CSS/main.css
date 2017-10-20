@@ -1,12 +1,31 @@
+body {
+  text-align: center;
+  background-size: contain;
+  background-image:
+  url("");
+}
+
 h1 {
   font-family: Futura;
 }
 
-.intro {
+h2 {
+  font-family: Futura;
+  font-size: 16px;
+}
+
+p {
   font-family: Helvetica;
 }
 
-.very-nice {
-  font-family: Futura;
-  font-stretch: condensed;
+span {
+  font-size: 16px;
+}
+
+.goals {
+  font-size: 12px;
+}
+
+.intro {
+  font-size: 16px;
 }
