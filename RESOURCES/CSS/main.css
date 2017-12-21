@@ -1,31 +1,123 @@
+
 body {
-  text-align: center;
   background-size: contain;
   background-image:
   url("");
-}
-
-h1 {
+  background-color: #af8262;
   font-family: Futura;
 }
 
-h2 {
-  font-family: Futura;
-  font-size: 16px;
+header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
 }
 
 p {
-  font-family: Helvetica;
+  font-family: Futura;
+  color: white;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 3rem;
+  font-weight: bold;
+  padding: 0;
 }
 
-span {
-  font-size: 16px;
+.container {
+  display: flex;
+  max-width: 95%;
+
 }
 
-.goals {
-  font-size: 12px;
+/* header styles */
+
+.nav-block-1 {
+  padding: 2rem;
+
 }
 
-.intro {
-  font-size: 16px;
+.nav-block-2 {
+  padding: 2rem;
+
+}
+
+.nav-block-3 {
+  display: flex;
+  align-items: center;
+  align-content: space-between;
+}
+
+.gram {
+  max-width: 3rem;
+  padding: 1rem;
+}
+
+.tweet {
+  max-width: 5rem;
+  padding: 1rem;
+}
+
+@media only screen and (max-width: 720px) {
+  .nav-block-3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 2rem;
+  }
+
+  .gram {
+    max-width: 3rem;
+    padding: 0.5rem;
+  }
+
+  .tweet {
+    max-width: 5rem;
+    padding: 0.5rem;
+  }
+}
+
+/* cards */
+
+.main-content {
+  display: flex;
+  padding-left: 2rem;
+  color: #ffffff;
+}
+
+.info-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.name h1 {
+  padding-bottom: 0;
+}
+
+.info {
+  display: flex;
+  padding-left: 2rem;
+  color: #ffffff;
+}
+
+.content {
+  display: flex;
+  padding: 2rem;
+  justify-content: flex-start;
+}
+
+.img-container {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-container img {
+  display: flex;
+  max-width: 75%;
+  max-height: 500px;
+}
+
+.img-container span {
+  color: #ffffff;
+  font-weight: bold;
 }
