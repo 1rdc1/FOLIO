@@ -13,12 +13,16 @@ header {
   width: 100%;
 }
 
+h1 {
+  font-size: 2rem;
+}
+
 p {
   font-family: Futura;
   color: white;
   margin-top: 0;
   margin-bottom: 0;
-  font-size: 3rem;
+  font-size: 5rem;
   font-weight: bold;
   padding: 0;
 }
@@ -26,7 +30,6 @@ p {
 .container {
   display: flex;
   max-width: 95%;
-
 }
 
 /* header styles */
@@ -47,13 +50,18 @@ p {
   align-content: space-between;
 }
 
+.nav-block-3 img {
+
+}
+
 .gram {
-  max-width: 3rem;
+  max-width: 5rem;
   padding: 1rem;
+
 }
 
 .tweet {
-  max-width: 5rem;
+  max-width: 9rem;
   padding: 1rem;
 }
 
@@ -66,12 +74,12 @@ p {
   }
 
   .gram {
-    max-width: 3rem;
+    max-width: 5rem;
     padding: 0.5rem;
   }
 
   .tweet {
-    max-width: 5rem;
+    max-width: 9rem;
     padding: 0.5rem;
   }
 }
@@ -87,6 +95,10 @@ p {
 .info-container {
   display: flex;
   flex-direction: column;
+}
+
+.info-container span {
+  font-size: 1.5rem;
 }
 
 .name h1 {
