@@ -3,133 +3,56 @@ body {
   background-size: contain;
   background-image:
   url("");
-  background-color: #af8262;
+  background-color: #515561;
   font-family: Futura;
+  color: #ffffff;
 }
 
 header {
   display: flex;
-  justify-content: space-between;
-  width: 100%;
-}
-
-h1 {
-  font-size: 2rem;
-}
-
-p {
-  font-family: Futura;
-  color: white;
-  margin-top: 0;
-  margin-bottom: 0;
-  font-size: 5rem;
+  justify-content: center;
   font-weight: bold;
-  padding: 0;
-}
-
-.container {
-  display: flex;
-  max-width: 95%;
-}
-
-/* header styles */
-
-.nav-block-1 {
-  padding: 2rem;
-
-}
-
-.nav-block-2 {
-  padding: 2rem;
-
-}
-
-.nav-block-3 {
-  display: flex;
-  align-items: center;
-  align-content: space-between;
-}
-
-.nav-block-3 img {
-
-}
-
-.gram {
-  max-width: 5rem;
-  padding: 1rem;
-
-}
-
-.tweet {
-  max-width: 9rem;
-  padding: 1rem;
-}
-
-@media only screen and (max-width: 720px) {
-  .nav-block-3 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding-top: 2rem;
-  }
-
-  .gram {
-    max-width: 5rem;
-    padding: 0.5rem;
-  }
-
-  .tweet {
-    max-width: 9rem;
-    padding: 0.5rem;
-  }
-}
-
-/* cards */
-
-.main-content {
-  display: flex;
-  padding-left: 2rem;
-  color: #ffffff;
-}
-
-.info-container {
-  display: flex;
-  flex-direction: column;
-}
-
-.info-container span {
-  font-size: 1.5rem;
-}
-
-.name h1 {
-  padding-bottom: 0;
+  font-size: 5rem;
 }
 
 .info {
   display: flex;
-  padding-left: 2rem;
-  color: #ffffff;
+  justify-content: space-around;
+  font-style: italic;
+  align-content: space-between;
+  font-size: 2rem;
+  padding-top: 1rem;
 }
 
-.content {
+.contact {
   display: flex;
-  padding: 2rem;
-  justify-content: flex-start;
+  justify-content: center;
+  font-weight: bold;
+  padding-top: 1rem;
+  font-size: 1.5rem;
 }
+
+.action {
+  display: flex;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+
+}
+
+/* action */
 
 .img-container {
+  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding-top: 2rem;
+  font-weight: bold;
 }
 
 .img-container img {
-  display: flex;
-  max-width: 75%;
-  max-height: 500px;
-}
-
-.img-container span {
-  color: #ffffff;
-  font-weight: bold;
+  width: 30%
 }
