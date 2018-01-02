@@ -54,5 +54,11 @@ header {
 }
 
 .img-container img {
-  width: 30%
+  width: 30%;
+}
+
+@media only screen and (max-width: 375px) {
+  .img-container img {
+    width: 75%;
+  }
 }
