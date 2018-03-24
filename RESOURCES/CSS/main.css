@@ -4,7 +4,7 @@ body {
   background-image:
   url("");
   background-color: #515561;
-  font-family: league gothic, Futura, sans-serif;
+  font-family: "league-gothic", "Futura", sans-serif;
   src: url(https://use.typekit.net/hru6ayd.css);
   font-style: italic;
   color: #cabbaf;
@@ -20,6 +20,13 @@ header {
 
 a {
   color: #cabbaf;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 95%;
 }
 
 /* info */
