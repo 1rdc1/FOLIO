@@ -4,68 +4,76 @@ body {
   background-image:
   url("");
   background-color: #515561;
-  font-family: Futura;
-  color: #ffffff;
+  font-family: league gothic;
+  font-style: italic;
+  color: #cabbaf;
 }
 
 header {
-  display: flex;
-  justify-content: center;
-  font-weight: bold;
-  font-size: 5rem;
+  white-space: nowrap;
+  text-align: center;
+  font-size: 12rem;
+  color: #cea888;
 }
+
+a {
+  color: #cabbaf;
+}
+
+/* info */
 
 .info {
   display: flex;
   justify-content: space-around;
-  font-style: italic;
-  align-content: space-between;
-  font-size: 2rem;
-  padding-top: 1rem;
+  font-size: 5rem;
+  margin-top: 0px;
+
 }
 
-.contact {
+.CASUAL {
   display: flex;
-  justify-content: center;
-  font-weight: bold;
-  padding-top: 1rem;
-  font-size: 1.5rem;
+  flex-direction: column;
+  align-items: center;
+
 }
 
-.action {
-  display: flex;
-  justify-content: center;
-  align-content: center;
+.CASUAL img {
+  width: 85%;
+  height: auto;
 }
 
-.container {
+
+/* contact */
+
+.LINKS {
   display: flex;
   justify-content: space-around;
-  align-items: center;
-
-}
-
-/* action */
-
-.img-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  font-size: 2rem;
   padding-top: 2rem;
-  font-weight: bold;
+
 }
 
-.container .img-container {
+.SOCIAL {
   display: flex;
   flex-direction: column;
-  justify-content: center;
 }
 
-.img-container img {
-  width: 50%;
-
+.PROJECTS {
+  display: flex;
+  flex-direction: column;
 }
+
+.CONTACT {
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  font-size: 2.5rem;
+  color: #cea888;
+}
+
+
 
 @media only screen and (max-width: 375px) {
   .img-container img {
